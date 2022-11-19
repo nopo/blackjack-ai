@@ -1,10 +1,15 @@
 # Blackjack!
 This project implements multiple different types of agents in blackjack.
+
 The first type of agent is the dealer who will hit if their score is lower than 17.
+
 There is the random player that will randomly decide to hit or stand.
+
 The Q-learning agent that decides based on the weights of prior actions in the same situation according to the q-learning algorithm:
   https://towardsdatascience.com/q-learning-algorithm-from-explanation-to-implementation-cdbeda2ea187
+  
 The trained q-learning agent takes the final weights of the trained q-learning agent to take what the agent learned and play the best it can.
+
 
 Here are the graphed results:
 
