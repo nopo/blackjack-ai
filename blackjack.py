@@ -1,3 +1,7 @@
+from globals import *
+from deck import Deck
+from dealer import Dealer
+
 class BlackJack: #class implementing actual blackjack game and rules
     
     def __init__(self, player): #argument is instance of class that is being played

@@ -1,3 +1,9 @@
+from player import Player
+from counter import Counter
+from globals import *
+
+import numpy as np
+
 class QLearningAgent(Player): #THE MEAT
     def __init__(self):
         self.qValues = Counter() #{(dealers_card_value, players_value, player_move): q_value}

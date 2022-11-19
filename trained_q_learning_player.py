@@ -1,3 +1,6 @@
+from player import Player
+from globals import *
+
 class TrainedQLearner(Player):
     # this is just a player that takes the qLearningAgents value dictionary and plays off of that, no more updates
     def __init__(self, qValues):

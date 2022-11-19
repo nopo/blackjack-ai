@@ -1,3 +1,5 @@
+import numpy as np
+
 class Deck: #class representing deck of cards
     def __init__(self):
         self.J, self.Q, self.K, self.A = 10, 10, 10, 11

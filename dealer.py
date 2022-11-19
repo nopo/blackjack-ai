@@ -1,3 +1,5 @@
+from player import Player 
+
 class Dealer(Player):
     
     def get_move(self): #dealer hits if < 17
